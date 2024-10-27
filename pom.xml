@@ -149,6 +149,17 @@
 					<wtpContextName>maven-web-application</wtpContextName>
 				</configuration>
 			</plugin>
+			<properties>
+                             <sonar.host.url>http://54.172.222.239:9000/</sonar.host.url>
+                              <sonar.login>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</sonar.login>
+                    </properties>
+			<plugin>
+                        <groupId>org.sonarsource.scanner.maven</groupId>
+                          <artifactId>sonar-maven-plugin</artifactId>
+                        <version>4.0.0.4121</version>
+                         </plugin>
+
+
 			
 </plugins>
 	</build>
