@@ -158,6 +158,10 @@
                           <artifactId>sonar-maven-plugin</artifactId>
                         <version>4.0.0.4121</version>
                          </plugin>
+			<properties>
+                            <sonar.host.url>http://54.172.222.239:9000/</sonar.host.url>
+                        </properties>
+
 
 
 			
